@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from scripts.predict import answer_question
+from scripts.predict import predict
 
 st.set_page_config(
     page_title="Question Answering",
@@ -75,7 +75,7 @@ st.markdown("## 🎈 Check answer ")
 st.header("")
 
 if submit_button:
-	st.markdown(get_answer(context,question))
+	st.markdown(predict(context,question))
 
 
 st.header("")
