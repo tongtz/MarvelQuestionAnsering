@@ -1,6 +1,4 @@
-!pip install tensorflow
 import streamlit as st
-import os
 import tensorflow as tf
 from transformers import AutoTokenizer
 from transformers import TFAutoModelForQuestionAnswering
