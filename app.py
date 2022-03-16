@@ -75,7 +75,7 @@ st.markdown("## 🎈 Check answer ")
 st.header("")
 
 if submit_button:
-	st.write('test')
+	st.markdown("### test")
 
 
 st.header("")
