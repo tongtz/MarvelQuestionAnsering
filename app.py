@@ -70,13 +70,11 @@ with st.form(key="my_form"):
         submit_button = st.form_submit_button(label="✨ Get me the answer!")
 
 
-st.markdown("## **🎈 Check answer **")
+st.markdown("## 🎈 Check answer ")
 
 st.header("")
 
-cs, c1, cLast = st.columns([2, 1.5, 2])
-
-with c1:
+if submit_button:
     st.markdown("test")
 
 
