@@ -77,9 +77,7 @@ st.header("")
 if submit_button:
 
     
-    ce, c1, ce= st.columns([0.07, 2, 0.07])
-
-    with c1:
+    with st.form(key="my_form"):
 	st.markdown("### test")
 
 
