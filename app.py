@@ -75,7 +75,12 @@ st.markdown("## 🎈 Check answer ")
 st.header("")
 
 if submit_button:
-    st.markdown("test")
+
+    
+    ce, c1, ce= st.columns([0.07, 2, 0.07])
+
+    with c1:
+	st.markdown("### test")
 
 
 st.header("")
