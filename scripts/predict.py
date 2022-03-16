@@ -8,7 +8,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 
 bert_model = TFAutoModelForQuestionAnswering.from_pretrained('./Fine_tune_BERT/')
 
-def predict(context,question):
+def predictAnswer(context,question):
   inputs = tokenizer([context], [question], return_tensors="np")
   outputs = bert_model(inputs)
   start_position = tf.argmax(outputs.start_logits, axis=1)
