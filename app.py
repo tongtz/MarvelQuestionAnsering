@@ -70,6 +70,8 @@ with st.form(key="my_form"):
         
         submit_button = st.form_submit_button(label="✨ Get me the answer!")
 
+if not submit_button:
+    st.stop()
     
 from transformers import AutoTokenizer
 from transformers import TFAutoModelForQuestionAnswering
