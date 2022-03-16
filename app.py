@@ -1,6 +1,7 @@
 import streamlit as st
 import os
-from scripts.predict import get_answer
+import scripts
+from scripts import predict
 
 st.set_page_config(
     page_title="Question Answering",
