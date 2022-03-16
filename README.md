@@ -7,8 +7,8 @@ This repository contains the essential code in order to fine-tune BERT on the Su
 
 * To installation: To quickly use our modified version of QuestionAnswering, clone this repository and install the necessary requirements by running ```
 pip install -r requirements.txt```
-* To fine-tune BERT: please run ```Fine_Tune.ipynb```. This notebook will automatically save the fine-tuned BERT model in ./models/.
-* To evaluate the fine-tuned BERT model: please run ```Eval.ipynb```.
+* To fine-tune BERT: please run ``` .ipynb```. This notebook will automatically save the fine-tuned BERT model in ```./Fine_tune_BERT/.```
+* To evaluate the fine-tuned BERT model: please run ``` .ipynb```.
 
 ## 3. Code and Paper References
 
