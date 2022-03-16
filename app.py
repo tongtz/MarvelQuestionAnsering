@@ -1,3 +1,4 @@
+!pip install tensorflow
 import streamlit as st
 import os
 import tensorflow as tf
