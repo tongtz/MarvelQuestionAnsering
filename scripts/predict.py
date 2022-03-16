@@ -1,4 +1,3 @@
-!pip install tensorflow
 import tensorflow as tf
 from transformers import AutoTokenizer
 from transformers import TFAutoModelForQuestionAnswering
