@@ -31,8 +31,7 @@ with st.expander("ℹ️ - About this app", expanded=True):
 
     st.write(
         """     
--   some introducation
--   second one
+-   DistilBERT is a small, fast, cheap and light Transformer model trained by distilling BERT base.
 	    """
     )
 
