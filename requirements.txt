@@ -1,3 +1,5 @@
 tensorflow
 streamlit
 transformers
+huggingface-hub
+datasets
