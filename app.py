@@ -74,7 +74,7 @@ st.header("")
 
 if submit_button:
 	# st.markdown(predictAnswer(context,question))
-	st.markdown("Story is intriguing though incredulous")
+	st.markdown("   Story is intriguing though incredulous")
 
 
 st.header("")
