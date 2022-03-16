@@ -1,7 +1,4 @@
 import streamlit as st
-import tensorflow as tf
-from transformers import AutoTokenizer
-from transformers import TFAutoModelForQuestionAnswering
 from scripts.predict import getAnswer
 
 st.set_page_config(
