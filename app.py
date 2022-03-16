@@ -75,7 +75,7 @@ st.markdown("## 🎈 Check answer ")
 st.header("")
 
 if submit_button:
-	st.markdown("### test")
+	st.markdown("### Answer: Story is intriguing though incredulous")
 
 
 st.header("")
