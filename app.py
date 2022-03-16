@@ -1,6 +1,8 @@
 import streamlit as st
 import os
-import predict
+import tensorflow as tf
+from transformers import AutoTokenizer
+from transformers import TFAutoModelForQuestionAnswering
 
 st.set_page_config(
     page_title="Question Answering",
@@ -73,11 +75,6 @@ with st.form(key="my_form"):
 st.markdown("## 🎈 Check answer ")
 
 st.header("")
-
-!pip install tensorflow
-import tensorflow as tf
-from transformers import AutoTokenizer
-from transformers import TFAutoModelForQuestionAnswering
 
 model_checkpoint = "distilbert-base-cased"
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
