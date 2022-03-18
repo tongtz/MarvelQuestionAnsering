@@ -1,6 +1,5 @@
-tensorflow
-streamlit
-transformers
-huggingface-hub
-datasets
 git+https://github.com/huggingface/transformers.git
+datasets
+huggingface-hub
+tensorflow-gpu
+tensorflow-hub
