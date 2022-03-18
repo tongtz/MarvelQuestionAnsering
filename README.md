@@ -7,8 +7,9 @@ This repository contains the essential code in order to fine-tune BERT on the Su
 
 * To installation: To quickly use our modified version of QuestionAnswering, clone this repository and install the necessary requirements by running ```
 pip install -r requirements.txt```
-* To fine-tune BERT: please run ``` .ipynb```. This notebook will automatically save the fine-tuned BERT model in ```./Fine_tune_BERT/.```
-* To evaluate the fine-tuned BERT model: please run ``` .ipynb```.
+* To train a logistic regression on our dataset: please run ```python -m scripts.train_regression```
+* To train and fine-tune BERT: please run ```python -m scripts.train_BERT```. This script will automatically train a DistilBERT model and save the fine-tuned BERT model in the same directory.
+* To evaluate the fine-tuned BERT model: please run ```python -m scripts.evaluation```. Note that you need to load a model to do evaluation, whether its from your trained model by running our ```train_BERT.py```, or from our provided model. Please make sure to change directory if you want to use provided model.
 
 ## 3. Code and Paper References
 
