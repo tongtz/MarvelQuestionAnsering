@@ -1,4 +1,4 @@
-from data_processing import pipeline, prepare_reg_features
+from scripts.data_processing import pipeline, prepare_reg_features
 from sklearn import linear_model, metrics
 
 train_x, test_x, train_y, test_y = prepare_reg_features('train')
