@@ -1,5 +1,5 @@
-from data_processing import pipeline
-from model import prepare_datasets, create_QA_model
+from scripts.data_processing import pipeline
+from scripts.model import prepare_datasets, create_QA_model
 
 train_dataset = pipeline('train')
 val_dataset = pipeline('validation')
