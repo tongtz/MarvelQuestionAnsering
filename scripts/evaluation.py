@@ -1,4 +1,4 @@
-from data_processing import pipeline
+from scripts.data_processing import pipeline
 from transformers import AutoTokenizer, TFAutoModelForQuestionAnswering
 import tensorflow as tf
 from tqdm import tqdm
