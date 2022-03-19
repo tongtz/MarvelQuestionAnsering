@@ -56,7 +56,7 @@ with st.form(key="my_form"):
     with c2:
         
         context = st.text_area(
-            "Paste your text below",
+            "Paste the context below",
             height=300,
         )
 
