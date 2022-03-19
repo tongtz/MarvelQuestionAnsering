@@ -36,7 +36,7 @@ pip install -r requirements.txt```
 * To train a logistic regression on our dataset: please run ```python -m scripts.train_regression```
 * To train and fine-tune BERT: please run ```python -m scripts.train_BERT```. This script will automatically train a DistilBERT model and save the fine-tuned BERT model in the same directory.
 * To evaluate the fine-tuned BERT model: please run ```python -m scripts.evaluation```. Note that you need to load a model to do evaluation, whether its from your trained model by running our ```train_BERT.py```, or from our provided model. Please make sure to change directory if you want to use provided model.
-* After trained and evaluate the model, run and execute the streamlit app for applications demo:```streamlit run app.py```. This app will use default pretrained model stored in ```/fine_tune_BERT```, if you want to use the model you treained, please update the path here: ```bert_model = TFAutoModelForQuestionAnswering.from_pretrained('./fine_tune_BERT/')```.
+* After trained and evaluate the model, run and execute the streamlit app for applications demo:```streamlit run app.py```. This app will use default pretrained model stored in ```/fine_tune_BERT```, if you want to use the model you trained, please update the path: ```bert_model = TFAutoModelForQuestionAnswering.from_pretrained('./fine_tune_BERT/')```.
 
 ## 4. Code and Paper References
 
