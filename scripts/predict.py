@@ -5,7 +5,7 @@ from transformers import TFAutoModelForQuestionAnswering
 model_checkpoint = "distilbert-base-cased"
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 
-bert_model = TFAutoModelForQuestionAnswering.from_pretrained('./QuestionAnswering/fine_tune_BERT/')
+bert_model = TFAutoModelForQuestionAnswering.from_pretrained('./fine_tune_BERT/')
 
 def predictAnswer(context,question):
   inputs = tokenizer([context], [question], return_tensors="np")
