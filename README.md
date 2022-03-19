@@ -17,8 +17,8 @@ SubjQA is a question answering dataset that focuses on subjective (as opposed to
 ├── scripts                 <- directory for pipeline scripts or utility scripts
     ├── data_processing.py  <- script to preprocess data
     ├── train_regression.py <- script to train a logistice regression model
-    ├── model.py            <- script to create a model
-    ├── train_BERT.py       <- script to train model DistilBERT model. This will also save the model within '/DistilBERT'
+    ├── model.py            <- script to create a DistilBERT model
+    ├── train_BERT.py       <- script to train the DistilBERT model. This will also save the model within '/DistilBERT'
     ├── evaluation.py       <- script to evaluate the model
     ├── predict.py          <- script to make generate answer from context and question
 ├── presentation            <- project presentation PPT
