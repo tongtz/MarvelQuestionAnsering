@@ -1,7 +1,7 @@
 # Question Answering System based on SubjQA
 
 ## 1. What is Subjqa?
-This repository contains the essential code in order to fine-tune BERT on the Subjqa dataset. Additionally, the technique of Knowledge Distillation is applied by fine-tuning DistilBERT on the dataset using BERT as the teacher model. 
+This repository contains the essential code in order to fine-tune BERT on the [Subjqa](https://huggingface.co/datasets/subjqa) dataset. Additionally, the technique of Knowledge Distillation is applied by fine-tuning [DistilBERT](https://huggingface.co/distilbert-base-uncased) on the dataset using BERT as the teacher model. 
 
 ## 2. How to run?
 
@@ -13,4 +13,4 @@ pip install -r requirements.txt```
 
 ## 3. Code and Paper References
 
-* A part of the code has been based on the publicly available code of 🤗 HuggingFace Transformers library and their corresponding research project on DistilBERT (code).
+* A part of the code has been based on the publicly available code of [🤗 HuggingFace Transformers library](https://huggingface.co/models?library=transformers) and their corresponding research project on [DistilBERT](https://huggingface.co/distilbert-base-uncased).
