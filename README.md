@@ -20,7 +20,7 @@ SubjQA is a question answering dataset that focuses on subjective (as opposed to
     ├── model.py            <- script to create a DistilBERT model
     ├── train_BERT.py       <- script to train the DistilBERT model. This will also save the model within '/DistilBERT'
     ├── evaluation.py       <- script to evaluate the model
-    ├── predict.py          <- script to generate answer from context and question
+    ├── predict.py          <- script to generate an answer from the context and question
 ├── presentation            <- project presentation PPT
 ├── fine_tune_BERT          <- directory for pretrained models
     ├── tf_model.h5         <- pretrained model 
